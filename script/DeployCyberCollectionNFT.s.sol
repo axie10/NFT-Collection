@@ -5,10 +5,10 @@ import {Script} from "forge-std/Script.sol";
 
 import {CyberCollectionNFT} from "../src/CyberCollectionNFT.sol";
 
-contract CyberCollectionNFT_Test is Script {
+contract DeployCyberCollectionNFT is Script {
     function run() external returns (CyberCollectionNFT) {
         uint256 privateKey = vm.envUint("PRIVATE_KEY");
-        vm.startBroadcast();
+        vm.startBroadcast(privateKey);
 
         string memory name_ = "Cyber Collection";
         string memory symbol_ = "CYBR";

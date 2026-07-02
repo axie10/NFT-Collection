@@ -30,10 +30,11 @@ contract CyberCollectionNFT is ERC721 {
         require(_nextTokenId < totalSupply, "Sold out");
         // Important point of NFT because not mint two token equals
         _safeMint(msg.sender, _nextTokenId);
-        tokenURI(_nextTokenId);
+        uint256 id = _nextTokenId;
+        // tokenURI(_nextTokenId);
         _nextTokenId++;
 
-        emit MintNFT(msg.sender, _nextTokenId--);
+        emit MintNFT(msg.sender, id);
     }
 
     function _baseURI() internal view virtual override returns (string memory) {
