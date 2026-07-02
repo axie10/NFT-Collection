@@ -1,0 +1,14 @@
+{
+    "name": "Cyber Collection #1 - Cyber Samurai",
+    "description": "Una guerrera del futuro con techno-mascara e implantes ciberneticos. Parte de la coleccion Cyber Collection.",
+    "image": "ipfs://bafybeigf4ebm6qdtzfeqhyiwauyira6aohykz6qupyhrcs7zhokawtxiei",
+    "attributes": [
+        { "trait_type": "Personaje", "value": "Cyber Samurai" },
+        { "trait_type": "Genero", "value": "Femenino" },
+        { "trait_type": "Accesorio", "value": "Techno-mask" },
+        { "trait_type": "Color Primario", "value": "Naranja" },
+        { "trait_type": "Color Secundario", "value": "Purpura" },
+        { "trait_type": "Rareza", "value": "Raro" },
+        { "trait_type": "Nivel de Poder", "value": 85, "max_value": 100, "display_type": "boost_number" }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Cyber Collection #0 - Neon Hacker",
+    "description": "Un hacker del inframundo digital equipado con visor de realidad aumentada y circuitos neon. Parte de la coleccion Cyber Collection.",
+    "image": "ipfs://bafybeigm4zfausiu5ubyauin4hp2ls226uw6x7ucac4fwmn4zw5y25xx6q",
+    "attributes": [
+        { "trait_type": "Personaje", "value": "Neon Hacker" },
+        { "trait_type": "Genero", "value": "Masculino" },
+        { "trait_type": "Accesorio", "value": "Visor AR" },
+        { "trait_type": "Color Primario", "value": "Cyan" },
+        { "trait_type": "Color Secundario", "value": "Magenta" },
+        { "trait_type": "Rareza", "value": "Comun" },
+        { "trait_type": "Nivel de Poder", "value": 70, "max_value": 100, "display_type": "boost_number" }
+    ]
+}
